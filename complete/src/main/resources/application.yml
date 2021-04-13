@@ -1,3 +1,9 @@
 micronaut:
   application:
     name: complete
+  security:
+    enabled: true
+
+logger:
+  levels:
+    io.micronaut: TRACE
